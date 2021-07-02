@@ -1,0 +1,39 @@
+[Version]
+Class=IEXPRESS
+SEDVersion=3
+[Options]
+PackagePurpose=InstallApp
+ShowInstallProgramWindow=0
+HideExtractAnimation=1
+UseLongFileName=0
+InsideCompressed=0
+CAB_FixedSize=0
+CAB_ResvCodeSigning=0
+RebootMode=N
+InstallPrompt=%InstallPrompt%
+DisplayLicense=%DisplayLicense%
+FinishMessage=%FinishMessage%
+TargetName=%TargetName%
+FriendlyName=%FriendlyName%
+AppLaunched=%AppLaunched%
+PostInstallCmd=%PostInstallCmd%
+AdminQuietInstCmd=%AdminQuietInstCmd%
+UserQuietInstCmd=%UserQuietInstCmd%
+SourceFiles=SourceFiles
+[Strings]
+InstallPrompt=
+DisplayLicense=
+FinishMessage=
+TargetName=C:\vscode\skanda-workspace\Temptarure-Conversion-Project\Celcius To Faraniet_Advanced.EXE
+FriendlyName=Celcius to Faraniet_Beta
+AppLaunched=Conversion-beta.exe
+PostInstallCmd=<None>
+AdminQuietInstCmd=
+UserQuietInstCmd=
+FILE0="libgcc_s_dw2-1.dll"
+FILE1="Conversion-beta.exe"
+[SourceFiles]
+SourceFiles0=C:\vscode\skanda-workspace\Temptarure-Conversion-Project\Celcius To Faraniet_Advanced\
+[SourceFiles0]
+%FILE0%=
+%FILE1%=
